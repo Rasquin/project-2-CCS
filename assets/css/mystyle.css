@@ -1,0 +1,86 @@
+/*----------------------------------- Text Styles*/
+
+a {
+    color: black;
+}
+
+
+
+/*------------------------------------NavBar*/
+
+.nav-bg-color {
+    background-color: #87cbf6;
+}
+
+/*----------------------------------- Home*/
+
+.home-container {
+
+    height: 80vh;
+
+    /*I took that from a web page called https://css-tricks.com/perfect-full-page-background-image/*/
+    background: url('../images/Caracas1.jpg') no-repeat center fixed;
+
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    padding: 0;
+    margin: 0;
+
+}
+
+.container-ccs {
+    color: white;
+    text-shadow: 5px 5px 10px black;
+    letter-spacing: 3px;
+
+
+}
+
+.ccs{
+    padding: 25px 0 40px;
+}
+
+.title-holiday{
+    padding: 20px 0 10px
+    
+}
+.jumbotron {
+    background-color: #ffffff82;
+}
+
+.list-ccs-opctions {
+    font-size: large;
+    list-style-type: none;
+    color: black;
+    text-shadow: 5px 5px 10px white;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+/*----------------------------------- Footer*/
+
+footer {
+    background-color: #5db4eb;
+    min-height: 120px;
+    margin: 0;
+    display: inline-block;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.social-links {
+    color: black;
+    padding-bottom: 15px;
+    display: inline-block;
+}
+
+/*assets/images/Caracas1.jpg  */
