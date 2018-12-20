@@ -18,7 +18,7 @@ a {
 
     height: 80vh;
 
-    /*I took that from a web page called https://css-tricks.com/perfect-full-page-background-image/*/
+   
     background: url('../images/Caracas1.jpg') no-repeat center fixed;
 
     background-size: cover;
@@ -63,6 +63,32 @@ a {
 }
 
 
+/*----------------------------------- Contact*/
+
+.container-contact {
+     background: url('../images/Caracas1.jpg') no-repeat center fixed;
+    background-size: cover;
+    padding: 5%;
+}
+
+.container-contact-content{
+    padding-bottom: 5%;
+}
+
+.container-contact-text {
+    padding: 5% 10%;
+    color: white;
+    text-shadow: 5px 5px 10px black;
+    letter-spacing: 3px;
+}
+
+.container-contact-form {
+    padding: 0 15%;
+}
+
+.description {
+    margin-bottom: 10px;
+}
 
 
 
@@ -83,4 +109,15 @@ footer {
     display: inline-block;
 }
 
+/*----------------------------------- FMEDIA QUERIES*/
+
+@media (max-width:760px) {
+    .container-contact-form {
+        padding: 5%;
+    }
+}
+
+@media (min-width:1025px){
+   
+}
 /*assets/images/Caracas1.jpg  */

@@ -14,3 +14,10 @@ imagen Caracas1 https://sh.m.wikipedia.org/wiki/Datoteka:Caracas_Panoramica_1.jp
 Bootstrap scripts and css http://getbootstrap.com/docs/4.1/getting-started/introduction/
 
 font awesome 5.6.1 https://fontawesome.com
+
+
+websites consulted:
+
+Text of El avila  https://en.wikipedia.org/wiki/El_%C3%81vila_National_Park
+Text of Museo de arte contemporaneo https://es.wikipedia.org/wiki/Museo_de_Arte_Contempor%C3%A1neo_de_Caracas
+Text of Bolivar Square https://en.wikipedia.org/wiki/Bolivar_Plaza_(Caracas)
