@@ -1,9 +1,31 @@
 /*----------------------------------- Text Styles*/
 
+body {
+    font-family: 'ZCOOL XiaoWei', serif;
+    background-color: skyblue;
+    color: black;
+}
+
 a {
     color: black;
 }
 
+
+/*----------------------------------- General Styles*/
+.title {
+    padding-bottom: 40px;
+}
+
+.container-image {
+    padding: 0px;
+    font-style: italic;
+    text-align: center;
+}
+
+.container-image img {
+  
+    width: 100%;
+}
 
 
 /*------------------------------------NavBar*/
@@ -16,9 +38,9 @@ a {
 
 .home-container {
 
-    height: 80vh;
+    height: 100vh;
 
-   
+
     background: url('../images/Caracas1.jpg') no-repeat center fixed;
 
     background-size: cover;
@@ -41,14 +63,14 @@ a {
 
 }
 
-.ccs{
+.ccs {
     padding: 25px 0 40px;
 }
 
-.title-holiday{
+.title-holiday {
     padding: 20px 0 10px
-    
 }
+
 .jumbotron {
     background-color: #ffffff82;
 }
@@ -62,16 +84,44 @@ a {
     padding: 0;
 }
 
+/*----------------------------------- About*/
+
+.about-container {
+    background-color: skyblue;
+    padding: 50px 50px 0px;
+}
+
+
+/*----------------------------------- Attractions*/
+.ccstitle {
+    padding: 50px;
+}
+
+/*----------------------------------- Bar-restaurants*/
+.bar-restaurants-conatainer{
+    background-color: white;
+}
+
+/*----------------------------------- Accommodation*/
+.accommodation-conatainer{
+    background-color: skyblue;
+}
+
+/*----------------------------------- Maps*/
+
+#map {
+    height: 300px;
+}
 
 /*----------------------------------- Contact*/
 
 .container-contact {
-     background: url('../images/Caracas1.jpg') no-repeat center fixed;
+    background: url('../images/Caracas1.jpg') no-repeat center fixed;
     background-size: cover;
     padding: 5%;
 }
 
-.container-contact-content{
+.container-contact-content {
     padding-bottom: 5%;
 }
 
@@ -115,9 +165,20 @@ footer {
     .container-contact-form {
         padding: 5%;
     }
+
 }
 
-@media (min-width:1025px){
-   
+@media (min-width:760px) {
+    .container-image {
+        padding: 0px 100px;
+
+    }
+
+    .container-image img {
+       
+        width: 100%;
+    }
+
 }
+
 /*assets/images/Caracas1.jpg  */

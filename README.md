@@ -9,15 +9,27 @@ Find bars and restaurants
 Provide search results in a manner that is visually appealing for your user (by drawing on the skills you have learned in User-Centric Frontend Development)
 
 
-imagen Caracas1 https://sh.m.wikipedia.org/wiki/Datoteka:Caracas_Panoramica_1.jpg
+imagen 
+Caracas1 https://sh.m.wikipedia.org/wiki/Datoteka:Caracas_Panoramica_1.jpg
+Caracas3 https://commons.wikimedia.org/wiki/File:Caracas_Venezuela_VEN_2018.png
+Proceres https://commons.wikimedia.org/wiki/File:Paseo_Los_Pr%C3%B3ceres.jpg
+Pabellon https://commons.wikimedia.org/wiki/File:Pabellon-criollo2.jpg
+
+Pabellon https://en.wikipedia.org/wiki/Pabell%C3%B3n_criollo
+arepas https://en.wikipedia.org/wiki/Arepa
+cachapas https://en.wikipedia.org/wiki/Cachapa
+ 
+
 
 Bootstrap scripts and css http://getbootstrap.com/docs/4.1/getting-started/introduction/
 
 font awesome 5.6.1 https://fontawesome.com
 
+Google Map API https://cloud.google.com/maps-platform/
+
+Google Fonts https://fonts.google.com/?selection.family=ZCOOL+XiaoWei
+
 
 websites consulted:
 
-Text of El avila  https://en.wikipedia.org/wiki/El_%C3%81vila_National_Park
-Text of Museo de arte contemporaneo https://es.wikipedia.org/wiki/Museo_de_Arte_Contempor%C3%A1neo_de_Caracas
-Text of Bolivar Square https://en.wikipedia.org/wiki/Bolivar_Plaza_(Caracas)
+Text of Caracas Get to know our city https://en.wikipedia.org/wiki/Caracas

@@ -1,80 +1,207 @@
 <!DOCTYPE html>
-	<html lang="en">
+<html lang="en">
 
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<title>Caracas-Attractions</title>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Caracas-Attractions</title>
 
 
-		<!------------------------------------------------------------------------STYLES-->
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-		<link rel="stylesheet" href="assets/css/mystyle.css" type="text/css" />
+	<!------------------------------------------------------------------------STYLES-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/css/mystyle.css" type="text/css" />
 
-	</head>
+</head>
 
-	<body>
-	    
-		<!-------------------------------------------------------------------------------NAVBAR-->
-		<header>
+<body>
 
-			<nav class="navbar navbar-expand-lg navbar-light nav-bg-color align-items-center">
-				<a class="navbar-brand" href="#">Enjoy CARACAS</a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-   					<span class="navbar-toggler-icon"></span>
-    			</button>
-				<div class="collapse navbar-collapse " id="navbarNavAltMarkup">
-					<div class="navbar-nav">
-						<a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
-						<a class="nav-item nav-link" href="about.html">About</a>
-						<a class="nav-item nav-link" href="attractions.html">Tourism Attractions</a>
-						<a class="nav-item nav-link" href="shopping.html">Shopping</a>
-						<a class="nav-item nav-link" href="bar-restaurants.html">Bar & Restaurants</a>
-						<a class="nav-item nav-link" href="accommodation.html">Accommodation</a>
-						<a class="nav-item nav-link" href="contact.html">Contact</a>
+	<!-------------------------------------------------------------------------------NAVBAR-->
+	<header>
+
+		<nav class="navbar navbar-expand-lg navbar-light nav-bg-color align-items-center">
+			<a class="navbar-brand" href="index.html">Enjoy CARACAS</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="index.html#about">About</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> What to do         </a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="attractions.html">Tourism Attractions</a>
+							<a class="dropdown-item" href="attractions.html#bar-restaurants">Bar & Restaurants</a>
+							<a class="dropdown-item" href="attractions.html#accommodation">Hotels</a>
+						</div>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact</a>
+					</li>
+				</ul>
+
+			</div>
+		</nav>
+	</header>
+
+	<!-------------------------------------------------------------------------------CARACAS TITLE AREA-->
+	<div class="row container-fluid ccstitle">
+		<div class="col-12">
+			<h1><strong>CARACAS...</strong></h1>
+		</div>
+	</div>
+
+	<!-------------------------------------------------------------------------------ATTRACTIONS SECTION-->
+	<div id="attractions" class="attractions-conatainer">
+		<div class="row container-fluid title">
+			<div class="col-12">
+				<h2 class="text-center">Visit our interesting spots</h2>
+			</div>
+		</div>
+		<div class="row container-fluid">
+			<div class="col-12 col-lg-6">
+				<div class="row">
+					<div class="col-12">
+						<p class="text-justify">The vibrant capital of Venezuela is famous for its vast cultural offer, well-tended green areas, monumental historical sites and emblematic modern architectures. Caracas has a particular charm, imagine walking through its streets on a Sunday and
+							feel its cool climate looking at the impressive hill Avila. Caracas is undoubtedly a beautiful city full of contrasts that you have see.</p>
 					</div>
 				</div>
-			</nav>
-		</header>
-		
-		
-		<!-------------------------------------------------------------------------------FOOTER-->
-		<footer class="container-fluid">
-			<div class="row ">
-				<!-------------------------------------------------------------------------------CONTACT-->
-				<div class="col-12 col-sm-4 ">
-					<h5 class="text-center text-uppercase"><a href="contact.html">Contact</a></h5>
-					<p class="inline-block">Want to share your experience with us? <i class="fas fa-envelope-square"></i></p>
+			</div>
+			<div class="col-12 col-lg-6 container-image">
+				<div class="row container-fluid">
+					<div class="col-12">
+						<a href="https://commons.wikimedia.org/wiki/File:Paseo_Los_Pr%C3%B3ceres.jpg" target="_blank"><img src="assets/images/Proceres.jpg" alt="Heroes Square (Caracas, VE)"></img></a>
+					</div>
+				</div>
+				<div class="row conatainer-fluid">
+					<div class="col-12">
+						<p><a href="https://es.wikipedia.org/wiki/Paseo_Los_Pr%C3%B3ceres" target="_blank">Paseo Los Proceres</a></p>
+					</div>
 				</div>
 
-				<!-------------------------------------------------------------------------------COPYRIGHT-->
-				<div class="col-12 col-sm-4">
+			</div>
+		</div>
+	</div>
 
-					<p class="text-center text-uppercase">CopyRight Monica Rasquin <i class="far fa-copyright"></i> </p>
+	<!-------------------------------------------------------------------------------BAR & RESTAURANTS SECTION-->
+	<div id="bar-restaurants" class="bar-restaurants-conatainer">
+		<div class="row container-fluid title">
+			<div class="col-12">
+				<h2 class="text-center">Try our variety of flavors</h2>
+			</div>
+		</div>
+		<div class="row container-fluid">
+			<div class="col-12 col-lg-6">
+				<div class="row">
+					<div class="col-12">
+						<p class="text-justify">The city is home to many immigrants from Spain, Italy, Portugal, the Middle East, Germany, China, and Latin American countries, so you can get excellent international restaurants.</p>
+					</div>
 				</div>
-
-				<!----------------------------------------------------------------------------SOCIAL MEDIA-->
-				<div class="col-12 col-sm-4">
-
-					<h5 class="text-uppercase">Follow Us</h5>
-					<ul class="list-inline social-links">
-						<li class="list-inline-item"><a target="_blank" href="#"><i class="fab fa-facebook-square" aria-hidden="true"></i></a></li>
-						<li class="list-inline-item"><a target="_blank" href="#"><i class="fab fa-twitter-square" aria-hidden="true"></i></a></li>
-						<li class="list-inline-item"><a target="_blank" href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
-					</ul>
-
+				<div class="row">
+					<div class="col-12">
+						<p class="text-justify">You have to try the <strong><a href="https://en.wikipedia.org/wiki/Pabell%C3%B3n_criollo" target="_blank"></a></strong>Pabellón criollo. It is a traditional Venezuelan dish, the local version of the rice and beans combination found throughout the Caribbean. It is a plate of rice, shredded beef in stew and stewed black beans.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12">
+						<p class="text-justify">In this city you can find "areperas". The <strong><a href="https://en.wikipedia.org/wiki/Arepa" target="_blank">arepa</a></strong> is like the bread for Venezuelans, in the areperas you can enjoy different fillings for the arepas, one more tasty than the other. There is also the <strong><a href="https://en.wikipedia.org/wiki/Cachapa" target="_blank"> cachapa </a> </strong>which is made with corn and filled with
+							white or yellow cheeses and somepeople put inside ham and pork, a true delight.</p>
+					</div>
 				</div>
 			</div>
-		</footer>
+			<div class="col-12 col-lg-6 container-image">
+				<div class="row container-fluid">
+					<div class="col-12">
+						<a href="https://commons.wikimedia.org/wiki/File:Pabellon-criollo2.jpg" target="_blank"><img src="assets/images/Pabellon.jpg" alt="Pabellon- Venezuelan National Dish"></img></a>
+					</div>
+				</div>
+				<div class="row conatainer-fluid">
+					<div class="col-12">
+						<p><a href="https://en.wikipedia.org/wiki/Pabell%C3%B3n_criollo" target="_blank" >Pabellon Criollo</a></p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<!------------------------------------------------------------------------------- ACCOMMODATION SECTION-->
+	<div id="accommodation" class="accommodation-conatainer">
+		<div class="row container-fluid title">
+			<div class="col-12">
+				<h2 class="text-center">Stay at the best locations</h2>
+			</div>
+		</div>
+		<div class="row container-fluid">
+			<div class="col-12 col-lg-6">
+				<div class="row">
+					<div class="col-12">
+						<p class="text-justify">The vibrant capital of Venezuela is famous for its vast cultural offer, well-tended green areas, monumental historical sites and emblematic modern architectures. Caracas has a particular charm, imagine walking through its streets on a Sunday and
+							feel its cool climate looking at the impressive hill Avila. Caracas is undoubtedly a beautiful city full of contrasts that you have see.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-lg-6 container-image">
+				<div class="row container-fluid">
+					<div class="col-12">
+						<a href="https://commons.wikimedia.org/wiki/File:Paseo_Los_Pr%C3%B3ceres.jpg" target="_blank"><img src="assets/images/Proceres.jpg" alt="Heroes Square (Caracas, VE)"></img></a>
+					</div>
+				</div>
+				<div class="row conatainer-fluid">
+					<div class="col-12">
+						<p><a href="https://es.wikipedia.org/wiki/Paseo_Los_Pr%C3%B3ceres" target="_blank">Paseo Los Proceres</a></p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<!-------------------------------------------------------------------------------MAP SECTION-->
+	<div id="map" class="map-conatainer conatainer-fluid"></div>
+
+	<!-------------------------------------------------------------------------------FOOTER-->
+	<footer class="container-fluid">
+		<div class="row ">
+			<!-------------------------------------------------------------------------------CONTACT-->
+			<div class="col-12 col-sm-4 ">
+				<h5 class="text-center text-uppercase"><a href="contact.html">Contact</a></h5>
+				<p class="inline-block">Want to share your experience with us? <i class="fas fa-envelope-square"></i></p>
+			</div>
+
+			<!-------------------------------------------------------------------------------COPYRIGHT-->
+			<div class="col-12 col-sm-4">
+
+				<p class="text-center text-uppercase">CopyRight Monica Rasquin <i class="far fa-copyright"></i> </p>
+			</div>
+
+			<!----------------------------------------------------------------------------SOCIAL MEDIA-->
+			<div class="col-12 col-sm-4">
+
+				<h5 class="text-uppercase">Follow Us</h5>
+				<ul class="list-inline social-links">
+					<li class="list-inline-item"><a target="_blank" href="#"><i class="fab fa-facebook-square" aria-hidden="true"></i></a></li>
+					<li class="list-inline-item"><a target="_blank" href="#"><i class="fab fa-twitter-square" aria-hidden="true"></i></a></li>
+					<li class="list-inline-item"><a target="_blank" href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+				</ul>
+
+			</div>
+		</div>
+	</footer>
 
 
-		<!------------------------------------------------------------------------------- scripts from Bootstrap-->
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<!------------------------------------------------------------------------------- scripts from Bootstrap-->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
-	</body>
+</body>
 
-	</html>
+</html>

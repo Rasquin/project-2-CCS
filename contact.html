@@ -1,99 +1,113 @@
 <!DOCTYPE html>
-	<html lang="en">
+<html lang="en">
 
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<title>Caracas-Contact</title>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Caracas-Contact</title>
 
 
-		<!------------------------------------------------------------------------STYLES-->
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-		<link rel="stylesheet" href="assets/css/mystyle.css" type="text/css" />
+	<!------------------------------------------------------------------------STYLES-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/css/mystyle.css" type="text/css" />
 
-	</head>
+</head>
 
-	<body>
-	    
-		<!-------------------------------------------------------------------------------NAVBAR-->
-		<header>
+<body>
 
-			<nav class="navbar navbar-expand-lg navbar-light nav-bg-color align-items-center">
-				<a class="navbar-brand" href="#">Enjoy CARACAS</a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-   					<span class="navbar-toggler-icon"></span>
-    			</button>
-				<div class="collapse navbar-collapse " id="navbarNavAltMarkup">
-					<div class="navbar-nav">
-						<a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
-						<a class="nav-item nav-link" href="about.html">About</a>
-						<a class="nav-item nav-link" href="attractions.html">Tourism Attractions</a>
-						<a class="nav-item nav-link" href="shopping.html">Shopping</a>
-						<a class="nav-item nav-link" href="bar-restaurants.html">Bar & Restaurants</a>
-						<a class="nav-item nav-link" href="accommodation.html">Accommodation</a>
-						<a class="nav-item nav-link" href="contact.html">Contact</a>
-					</div>
-				</div>
-			</nav>
-		</header>
-		 <!-------------------------------------------------------------------------------CONTACT SECTION-->
-		 <section class="container-fluid container-contact">
-        <div class="row  text-center container-contact-content">
-            <div class="col-md-12 container-contact-text">
-                <h3 class="contact-heading text-uppercase"><strong>Want to share your experience?</strong></h3>
-                <h5 class="text-center"><strong>Tell us your experience or ask us for suggestions. We will enjoy to share your history or give you advices.</strong></h5>
-            </div>
-            <div class="col-md-12 container-contact-form">
-                <div class="center-form">
-                    <form>
-                        <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
-                        <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
-                        <textarea rows="5" name="projectsummary" class="form-control description" id="projectsummary" placeholder="Your message..." required></textarea>
-                        <input type="submit" value="Send" class="boton" />
-                    </form>
-                </div>
-            </div>
-        </div>
+	<!-------------------------------------------------------------------------------NAVBAR-->
+	<header>
 
-    </section>
-		
-		<!-------------------------------------------------------------------------------FOOTER-->
-		<footer class="container-fluid">
-			<div class="row ">
-				<!-------------------------------------------------------------------------------CONTACT-->
-				<div class="col-12 col-sm-4 ">
-					<h5 class="text-center text-uppercase"><a href="contact.html">Contact</a></h5>
-					<p class="inline-block">Want to share your experience with us? <i class="fas fa-envelope-square"></i></p>
-				</div>
+		<nav class="navbar navbar-expand-lg navbar-light nav-bg-color align-items-center">
+			<a class="navbar-brand" href="index.html">Enjoy CARACAS</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-				<!-------------------------------------------------------------------------------COPYRIGHT-->
-				<div class="col-12 col-sm-4">
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="index.html#about">About</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> What to do         </a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="attractions.html">Tourism Attractions</a>
+							<a class="dropdown-item" href="attractions.html#bar-restaurants">Bar & Restaurants</a>
+							<a class="dropdown-item" href="attractions.html#accommodation">Hotels</a>
+						</div>
+					</li>
 
-					<p class="text-center text-uppercase">CopyRight Monica Rasquin <i class="far fa-copyright"></i> </p>
-				</div>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact</a>
+					</li>
+				</ul>
 
-				<!----------------------------------------------------------------------------SOCIAL MEDIA-->
-				<div class="col-12 col-sm-4">
-
-					<h5 class="text-uppercase">Follow Us</h5>
-					<ul class="list-inline social-links">
-						<li class="list-inline-item"><a target="_blank" href="#"><i class="fab fa-facebook-square" aria-hidden="true"></i></a></li>
-						<li class="list-inline-item"><a target="_blank" href="#"><i class="fab fa-twitter-square" aria-hidden="true"></i></a></li>
-						<li class="list-inline-item"><a target="_blank" href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
-					</ul>
-
+			</div>
+		</nav>
+	</header>
+	<!-------------------------------------------------------------------------------CONTACT SECTION-->
+	<section class="container-fluid container-contact">
+		<div class="row  text-center container-contact-content">
+			<div class="col-md-12 container-contact-text">
+				<h3 class="contact-heading text-uppercase"><strong>Want to share your experience?</strong></h3>
+				<h5 class="text-center"><strong>Tell us your experience or ask us for suggestions. We will enjoy to share your history or give you advices.</strong></h5>
+			</div>
+			<div class="col-md-12 container-contact-form">
+				<div class="center-form">
+					<form>
+						<input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
+						<input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+						<textarea rows="5" name="projectsummary" class="form-control description" id="projectsummary" placeholder="Your message..." required></textarea>
+						<input type="submit" value="Send" class="boton" />
+					</form>
 				</div>
 			</div>
-		</footer>
+		</div>
+
+	</section>
+
+	<!-------------------------------------------------------------------------------FOOTER-->
+	<footer class="container-fluid">
+		<div class="row ">
+			<!-------------------------------------------------------------------------------CONTACT-->
+			<div class="col-12 col-sm-4 ">
+				<h5 class="text-center text-uppercase"><a href="contact.html">Contact</a></h5>
+				<p class="inline-block">Want to share your experience with us? <i class="fas fa-envelope-square"></i></p>
+			</div>
+
+			<!-------------------------------------------------------------------------------COPYRIGHT-->
+			<div class="col-12 col-sm-4">
+
+				<p class="text-center text-uppercase">CopyRight Monica Rasquin <i class="far fa-copyright"></i> </p>
+			</div>
+
+			<!----------------------------------------------------------------------------SOCIAL MEDIA-->
+			<div class="col-12 col-sm-4">
+
+				<h5 class="text-uppercase">Follow Us</h5>
+				<ul class="list-inline social-links">
+					<li class="list-inline-item"><a target="_blank" href="#"><i class="fab fa-facebook-square" aria-hidden="true"></i></a></li>
+					<li class="list-inline-item"><a target="_blank" href="#"><i class="fab fa-twitter-square" aria-hidden="true"></i></a></li>
+					<li class="list-inline-item"><a target="_blank" href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+				</ul>
+
+			</div>
+		</div>
+	</footer>
 
 
-		<!------------------------------------------------------------------------------- scripts from Bootstrap-->
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<!------------------------------------------------------------------------------- scripts from Bootstrap-->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
-	</body>
+</body>
 
-	</html>
+</html>
