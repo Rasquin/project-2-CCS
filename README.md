@@ -14,6 +14,7 @@ Caracas1 https://sh.m.wikipedia.org/wiki/Datoteka:Caracas_Panoramica_1.jpg
 Caracas3 https://commons.wikimedia.org/wiki/File:Caracas_Venezuela_VEN_2018.png
 Proceres https://commons.wikimedia.org/wiki/File:Paseo_Los_Pr%C3%B3ceres.jpg
 Pabellon https://commons.wikimedia.org/wiki/File:Pabellon-criollo2.jpg
+Bedroom https://get.pxhere.com/photo/white-floor-interior-home-cottage-property-furniture-room-bedroom-decor-interior-design-textile-design-bed-suite-duvet-cover-bed-sheet-bed-frame-828940.jpg
 
 Pabellon https://en.wikipedia.org/wiki/Pabell%C3%B3n_criollo
 arepas https://en.wikipedia.org/wiki/Arepa
@@ -22,6 +23,8 @@ cachapas https://en.wikipedia.org/wiki/Cachapa
 
 
 Bootstrap scripts and css http://getbootstrap.com/docs/4.1/getting-started/introduction/
+
+Bootstrap-Select scripts and css https://developer.snapappointments.com/bootstrap-select/
 
 font awesome 5.6.1 https://fontawesome.com
 
