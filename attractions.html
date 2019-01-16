@@ -42,6 +42,7 @@
 							<a class="dropdown-item" href="attractions.html">Tourism Attractions</a>
 							<a class="dropdown-item" href="attractions.html#bar-restaurants">Bar & Restaurants</a>
 							<a class="dropdown-item" href="attractions.html#accommodation">Hotels</a>
+							<a class="dropdown-item" href="attractions.html#map-section">Check out our map</a>
 						</div>
 					</li>
 
@@ -63,12 +64,12 @@
 
 	<!-------------------------------------------------------------------------------ATTRACTIONS SECTION-->
 	<div id="attractions" class="container-fluid attractions-container">
-		<div class="row container-fluid title">
+		<div class="row title">
 			<div class="col-12">
 				<h2 class="text-center">Visit our interesting spots</h2>
 			</div>
 		</div>
-		<div class="row container-fluid">
+		<div class="row">
 			<div class="col-12 col-lg-6">
 				<div class="row">
 					<div class="col-12">
@@ -96,10 +97,10 @@
 
 			</div>
 		</div>
-		<div class="row container-fluid">
+		<div class="row">
 			<div class="col-12">
 				<a href="attractions.html">
-					<p class="text-muted text-right">Go to Top</p>
+					<p class="text-muted text-right d-md-none">Go to Top</p>
 				</a>
 			</div>
 		</div>
@@ -107,12 +108,12 @@
 
 	<!-------------------------------------------------------------------------------BAR & RESTAURANTS SECTION-->
 	<div id="bar-restaurants" class="container-fluid bar-restaurants-container">
-		<div class="row container-fluid title">
+		<div class="row title">
 			<div class="col-12">
 				<h2 class="text-center">Try our variety of flavors</h2>
 			</div>
 		</div>
-		<div class="row container-fluid">
+		<div class="row">
 			<div class="col-12 col-lg-6">
 				<div class="row">
 					<div class="col-12">
@@ -151,7 +152,7 @@
 
 			</div>
 		</div>
-		<div class="row container-fluid">
+		<div class="row">
 			<div class="col-12">
 				<a href="attractions.html">
 					<p class="text-muted text-right">Go to Top</p>
@@ -162,12 +163,12 @@
 
 	<!------------------------------------------------------------------------------- ACCOMMODATION SECTION-->
 	<div id="accommodation" class="container-fluid accommodation-container">
-		<div class="row container-fluid title">
+		<div class="row title">
 			<div class="col-12">
 				<h2 class="text-center">Stay at the best locations</h2>
 			</div>
 		</div>
-		<div class="row container-fluid">
+		<div class="row">
 			<div class="col-12 col-lg-6">
 				<div class="row">
 					<div class="col-12">
@@ -189,7 +190,7 @@
 
 			</div>
 		</div>
-		<div class="row container-fluid">
+		<div class="row">
 			<div class="col-12">
 				<a href="attractions.html">
 					<p class="text-muted text-right">Go to Top</p>
@@ -199,63 +200,63 @@
 	</div>
 
 	<!-------------------------------------------------------------------------------MAP SECTION-->
-	<div id="map-section" class="map-section-container container-fluid">
-		<div class="row container-fluid title">
+		<div id="map-section" class="map-section-container container-fluid">
+		<div class="row title">
 			<div class="col-12">
-				<h2 class="text-center">Check our map !</h2>
+				<h2 class="text-center">Check out our map..!</h2>
 			</div>
 		</div>
-		<div class="row container-fluid">
+		<div class="row">
 			<div class="col-12">
-				<p class="text-center">Select what kind of place you would licke to check, or type the name of the place that your are interested in.</p>
+				<p class="text-center">Tell us what type of place you would like to check, and our search box will help you with the name of the place. You can also look for a particular place..!</p>
 			</div>
 		</div>
-		<div class="row container-fluid">
-			<div class="col-11 col-lg-5">
+		<div class="row justify-content-center search-container">
+			<div class="col-11 col-lg-3">
 
-		
-				<select class="selectpicker" data-live-search="true" multiple data-size="5">
-				  <optgroup label="Attractions" data-max-options="4">
-				    <option>Natural Area</option>
-				    <option>Museum</option>
-				    <option>Building</option>
-				    <option>Others</option>
-				  </optgroup>
-				  <optgroup label="Bar & Restaurants" data-max-options="4">
-				    <option>Restaurants</option>
-				    <option>Bar</option>
-				    <option>Cafe / Bakery</option>
-				    <option>Others</option>
-				  </optgroup>
-				   <optgroup label="Shopping" data-max-options="2">
-				    <option>Shopping Mall</option>
-				    <option>Others</option>
-				  </optgroup>
-				  <optgroup label="Accommodation" data-max-options="2">
-				    <option>Hotels</option>
-				    <option>Others</option>
-				  </optgroup>
-				</select>
+
+				<select id="place-type"  class="selectpicker" data-live-search="true" multiple data-max-options="1"data-size="5">
+					  <optgroup label="Attractions">
+					  	 <option value="museum">Museum</option>
+					    <option value="park">Natural Area</option>
+					   
+					  </optgroup>
+					  <optgroup label="Bar & Restaurants">
+					    <option value="restaurant">Restaurants</option>
+					    <option value="bar">Bar</option>
+					    <option value="cafe">Cafe</option>
+					  </optgroup>
+					   <optgroup label="Shopping">
+					    <option value="shopping_mall">Shopping Mall</option>
+					    <option value="store">Stores</option>
+					  </optgroup>
+					  <optgroup label="Accommodation" >
+					    <option value="lodging">Hotels</option>
+					    
+					  </optgroup>
+					</select>
 
 
 
 			</div>
 			<div class="col-1 col-lg-2">
-				<p class="text-center">Or</p>
+				<p class="text-center arrow"><i class="fas fa-arrow-right"></i></p>
 			</div>
-			<div class="col-12 col-lg-5">
+			<div class="col-12 col-lg-3">
 				<form class="form-inline my-2 my-lg-0">
-					<input class="form-control mr-sm-2" type="search" placeholder="Place Name" aria-label="Search">
-					<button class="btn my-2 my-sm-0" type="submit">Search</button>
+					
+					<input id="pac-input" class="form-control mr-sm-2" type="text" placeholder="Place Name"  onchange="initAutocomplete()">
+			
+					<!--	<button onclick="placeName()"class="btn my-2 my-sm-0" type="submit">Search</button> -->
 				</form>
 			</div>
 		</div>
-		<div class="row container-fluid">
+		<div class="row map-container">
 			<div class="col-12">
 				<div id="map"></div>
 			</div>
 		</div>
-		<div class="row container-fluid">
+		<div class="row">
 			<div class="col-12">
 				<a href="attractions.html">
 					<p class="text-muted text-right">Go to Top</p>
@@ -292,15 +293,22 @@
 			</div>
 		</div>
 	</footer>
-
+	
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	
+	<!-------------------------------------------------------------------------------My scripts-->
+	<script type="text/javascript" src="assets/js/mapccsl.js"></script>
 
 	<!------------------------------------------------------------------------------- scripts from Bootstrap-->
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 	<!------------------------------------------------------------------------------- scripts from Bootstrap - Select-->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.2/js/bootstrap-select.min.js"></script>
 
+	<!------------------------------------------------------------------------------- scripts from Google Map API-->
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_huMnglI9aQ9AUlk7BcwiH2oSVckYmb0&libraries=places"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_huMnglI9aQ9AUlk7BcwiH2oSVckYmb0&libraries=places&callback=initAutocomplete" async defer></script>
 </body>
 
 </html>

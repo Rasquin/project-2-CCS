@@ -12,9 +12,6 @@ a {
 
 
 /*----------------------------------- General Styles*/
-.title {
-    padding-bottom: 40px;
-}
 
 .container-image {
     padding: 0px;
@@ -23,11 +20,11 @@ a {
 }
 
 .container-image img {
-  
+
     width: 100%;
 }
 
-.btn{
+.btn {
     background-color: #f8f9fa;
 }
 
@@ -35,6 +32,10 @@ a {
 
 .nav-bg-color {
     background-color: #87cbf6;
+}
+
+.dropdown-item {
+    color: #0062cc;
 }
 
 /*----------------------------------- Home*/
@@ -95,33 +96,61 @@ a {
 }
 
 
+.title {
+    padding-bottom: 40px;
+}
+
+.content-container{
+    padding: 30px 0px;
+}
+
 /*----------------------------------- Attractions*/
+
 .ccstitle {
     padding: 50px;
 }
 
-.attractions-container{
+.attractions-container {
     background-color: skyblue;
+    padding: 50px 50px 0px;
 }
+
 /*----------------------------------- Bar-restaurants*/
-.bar-restaurants-container{
+
+.bar-restaurants-container {
     background-color: white;
-    padding-left: 5%;
+    padding: 50px 50px 0px;
 }
 
 /*----------------------------------- Accommodation*/
-.accommodation-container{
+
+.accommodation-container {
     background-color: skyblue;
-    padding-left: 5%;
+    padding: 50px 50px 0px;
 }
 
 /*----------------------------------- Maps*/
 
-.map-section-container{
+.map-section-container {
     background-color: white;
+    padding: 50px 50px 0px;
 }
+
+.search-container {
+    padding: 30px 0 50px;
+}
+
+.arrow {
+    display: inline-block;
+}
+
+
+.map-container {
+    padding: 10px 0px 30px;
+}
+
 #map {
-    height: 300px;
+    height: 400px;
 }
 
 /*----------------------------------- Contact*/
@@ -170,11 +199,20 @@ footer {
     display: inline-block;
 }
 
-/*----------------------------------- FMEDIA QUERIES*/
+/*----------------------------------- MEDIA QUERIES*/
 
 @media (max-width:760px) {
+    .map-container {
+        margin: 0 -50px;
+    }
     .container-contact-form {
         padding: 5%;
+    }
+}
+
+@media (max-width: 992px) {
+    .arrow {
+        display: none;
     }
 
 }
@@ -186,7 +224,7 @@ footer {
     }
 
     .container-image img {
-       
+
         width: 100%;
     }
 
