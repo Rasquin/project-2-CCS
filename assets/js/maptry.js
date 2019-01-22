@@ -25,12 +25,6 @@ function initAutocomplete(typeOfPlace) {
 
   // Create the search box and link it to the UI element.
 
-  //I need something like:
-  /* if typeOfplace==['']
-        var input = document.getElementById('pac-input');
-  else
-        var input = typeOfPlace; but when I do this (nput = typeOfPlace) the code doesn't run 
-        */
 
   var input = document.getElementById('pac-input');
   var searchBox = new google.maps.places.SearchBox(input);
@@ -81,6 +75,8 @@ function initAutocomplete(typeOfPlace) {
         placeId: place.place_id,
         fields: ['name', 'photos', 'url', 'geometry']
       };
+      
+
 
       service = new google.maps.places.PlacesService(map);
       service.getDetails(request, callback);
@@ -93,9 +89,9 @@ function initAutocomplete(typeOfPlace) {
             map: map,
             icon: icon,
             title: place.name,
-            image: place.photos,
+            image: place.photos, //ask for the right word
             position: place.geometry.location,
-            url: place.url
+            url: place.url //ask for the right word
           }));
 
           

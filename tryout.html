@@ -58,10 +58,10 @@
 		</nav>
 	</header>
 	<!-------------------------------------------------------------------------------MAP SECTION-->
-	<div id="map-section" class="map-section-container container-fluid">
+<div id="map-section" class="map-section-container container-fluid">
 		<div class="row title">
 			<div class="col-12">
-				<h2 class="text-center">Check our map !</h2>
+				<h2 class="text-center">Check out our map..!</h2>
 			</div>
 		</div>
 		<div class="row">
@@ -69,8 +69,8 @@
 				<p class="text-center">Tell us what type of place you would like to check, and our search box will help you with the name of the place. You can also look for a particular place..!</p>
 			</div>
 		</div>
-		<div class="row justify-content-center">
-			<div class="col-11 col-md-2">
+		<div class="row justify-content-center search-container">
+			<div class="col-11 col-lg-3">
 
 
 				<select id="place-type"  class="selectpicker" data-live-search="true" multiple data-max-options="1"data-size="5">
@@ -97,10 +97,10 @@
 
 
 			</div>
-			<div class="col-1 col-md-1">
-				<p class="text-center"><i class="fas fa-arrow-right"></i></p>
+			<div class="col-1 col-lg-2">
+				<p class="text-center arrow"><i class="fas fa-arrow-right"></i></p>
 			</div>
-			<div class="col-12 col-md-2">
+			<div class="col-12 col-lg-3">
 				<form class="form-inline my-2 my-lg-0">
 					
 					<input id="pac-input" class="form-control mr-sm-2" type="text" placeholder="Place Name"  onchange="initAutocomplete()">
@@ -109,7 +109,7 @@
 				</form>
 			</div>
 		</div>
-		<div class="row container-fluid">
+		<div class="row map-container">
 			<div class="col-12">
 				<div id="map"></div>
 			</div>
@@ -165,10 +165,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.2/js/bootstrap-select.min.js"></script>
 
 	<!------------------------------------------------------------------------------- scripts from Google Map API-->
-	<!--<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_huMnglI9aQ9AUlk7BcwiH2oSVckYmb0&callback=initMap">
-	</script> -->
-	<!--<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_huMnglI9aQ9AUlk7BcwiH2oSVckYmb0&libraries=places"></script> 
-	-->
+
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_huMnglI9aQ9AUlk7BcwiH2oSVckYmb0&libraries=places&callback=initAutocomplete" async defer></script>
 </body>
 
