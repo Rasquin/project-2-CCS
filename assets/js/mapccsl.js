@@ -16,27 +16,6 @@ function initAutocomplete(typeOfPlace) {
     $('#pac-input').val(typeOfPlace[0]);
     $('#pac-input').click();
 
-    /*
-        var firstResult = $(".pac-container .pac-item:first").text();
-
-        var geocoder = new google.maps.Geocoder();
-        geocoder.geocode({ "address": firstResult }, function(results, status) {
-          if (status == google.maps.GeocoderStatus.OK) {
-            var lat = results[0].geometry.location.lat(),
-              lng = results[0].geometry.location.lng(),
-              placeName = results[0].address_components[0].long_name,
-              latlng = new google.maps.LatLng(lat, lng);
-
-            $(".pac-container .pac-item:first").addClass("pac-selected");
-            $(".pac-container").css("display", "none");
-            $("#searchTextField").val(firstResult);
-            $(".pac-container").css("visibility", "hidden");
-
-            moveMarker(placeName, latlng);
-
-          }
-        });
-        */
 
   });
 
@@ -97,13 +76,6 @@ function initAutocomplete(typeOfPlace) {
 
 
  
-      /*
-              var marker = new google.maps.Marker({
-                map: map,
-                position: place.geometry.location,
-                title: place.name,
-                icon: photos[0].getUrl({ 'maxWidth': 35, 'maxHeight': 35 })
-              });*/
 
       var request = {
         placeId: place.place_id,
