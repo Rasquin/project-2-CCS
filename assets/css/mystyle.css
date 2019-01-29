@@ -230,4 +230,9 @@ footer {
 
 }
 
-/*assets/images/Caracas1.jpg  */
+
+@media (min-width: 1200px) {
+    .xlarge-img{
+        height: 600px;
+    }
+}

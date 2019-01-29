@@ -1,4 +1,4 @@
-function initAutocomplete(typeOfPlace) {
+function initAutocomplete() {
   var map = new google.maps.Map(document.getElementById('map'), {
     center: { lat: 10.4806, lng: -66.9036 },
     zoom: 13,
@@ -7,31 +7,15 @@ function initAutocomplete(typeOfPlace) {
 
   $('#place-type').change(function() {
 
-    var place = $('option').val()
+    var place = $('option').val();
     var typeOfPlace = $(this).val(); // Here is saved the actual type of attraction
 
-    console.log(typeOfPlace); //works!!
-
-
-    $('#pac-input').val(typeOfPlace[0]);
-    $('#pac-input').click();
-
+    $('#pac-input').val(typeOfPlace[0]); //Pass the typo of place to the search bol
 
   });
 
 
-
-  //aqui esta el init map
-
-  // Create the search box and link it to the UI element.
-
-  //I need something like:
-  /* if typeOfplace==['']
-        var input = document.getElementById('pac-input');
-  else
-        var input = typeOfPlace; but when I do this (nput = typeOfPlace) the code doesn't run 
-        */
-
+  //Introduce the content of the search box
   var input = document.getElementById('pac-input');
   var searchBox = new google.maps.places.SearchBox(input);
 
@@ -75,7 +59,7 @@ function initAutocomplete(typeOfPlace) {
       };
 
 
- 
+
 
       var request = {
         placeId: place.place_id,
@@ -98,7 +82,7 @@ function initAutocomplete(typeOfPlace) {
             url: place.url
           }));
 
-          
+
         }
       }
 
