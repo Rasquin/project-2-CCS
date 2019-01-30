@@ -19,8 +19,6 @@ function initAutocomplete() {
   var input = document.getElementById('pac-input');
   var searchBox = new google.maps.places.SearchBox(input);
 
-
-
   // Bias the SearchBox results towards current map's viewport.
   map.addListener('bounds_changed', function() {
     searchBox.setBounds(map.getBounds());
@@ -57,9 +55,6 @@ function initAutocomplete() {
         anchor: new google.maps.Point(17, 34),
         scaledSize: new google.maps.Size(25, 25)
       };
-
-
-
 
       var request = {
         placeId: place.place_id,

@@ -1,3 +1,5 @@
+#Enjoy Caracas - project 2
+
 Here you find  a frontend-only website about tourism in Caracas.
 The users will find the tourist attractions, accommodation and bars & 
 restaurants of the city.
@@ -6,7 +8,7 @@ The sites of insterest can be found through a Search Box where the user can
 write the name or type of place he or she would like to visit. This process is
 done through Google Maps API and the Google Places.
 
-UX
+##UX
 This website has been designed to offer the users, possible new tourists in the
 city, a nice experience when choosing where to go, what to eat or where to stay. 
 The visitors of this website will be able to learn about the city of Caracas, 
@@ -33,8 +35,8 @@ website should allow me to visit also those sites.
 The wireframes of this project were made with microsoft powerpoint 2010. You can
 find them in https://github.com/Rasquin/project-2-CCS/tree/master/wireframes
 
-Features
-Existing Features
+##Features
+###Existing Features
 The project consist of two scrolling pages and a contact page, each of them has
 a navbar and a footer.
 
@@ -82,16 +84,16 @@ The contact page contents a form where the user can ask for adavice or tell
 his/her experience. The form ask you for the name of the user, the email and the
 message. All this information can be submitted through the "Send" buttom.
 
-Features Left to Implement
+###Features Left to Implement
 . Let the user know about the rating and reviews of a desired place and give access to the website after looking 
 for it at the Search Box. Those characteristics are not  for free.
 . Allow the user to view the experiences of other people when visiting the city (blog)
 
-Technologies Used
+##Technologies Used
 
 This project was made with HTML5, CSS3 and JavaScript. Besides those, the following tools were used:
 
-Language:English.
+Language: English.
 
 Libraries: 
 
@@ -122,7 +124,7 @@ Own CSS style sheet. To make my own styles and overwrite some of the Bootstrap
 style library.
 Own JavaScript files. To make the maps work with my own criteria.
 
-Testing
+##Testing
 The whole code was validated through the Markup Validation Service
 (https://validator.w3.org/). The code was continuously monitored through the 
 "Inspect" function of the Google Chrome Browser. Making sure that the website 
@@ -172,7 +174,7 @@ Problems found by the code validator and solved:
 . CSS: no errors
 . HTML: Stray end tag img. I took out all the tags. 
 
-Deployment
+##Deployment
 This project is available in the GitHub platform under the name of project-2-CCS
 https://github.com/Rasquin/project-2-CCS
 
@@ -187,11 +189,11 @@ this was moved to its final  file.
 You can check this project in the next URL https://rasquin.github.io/project-2-CCS/
 
 
-Credits
-Content
+##Credits
+###Content
 Text of Caracas Get to know our city was got from https://en.wikipedia.org/wiki/Caracas
 
-Media
+###Media
 The photos used in this project are labelled  for reuse.
 The imagen for stepping stone was copied from Wikipedia https://en.wikipedia.org/wiki/I%27m_a_Believer#/media/File:The_Monkees_single_02_I%27m_a_Believer.jpg
 Backgroung image: Caracas1 https://sh.m.wikipedia.org/wiki/Datoteka:Caracas_Panoramica_1.jpg
@@ -200,12 +202,27 @@ Proceres https://commons.wikimedia.org/wiki/File:Paseo_Los_Pr%C3%B3ceres.jpg
 Pabellon https://commons.wikimedia.org/wiki/File:Pabellon-criollo2.jpg
 Bedroom https://get.pxhere.com/photo/white-floor-interior-home-cottage-property-furniture-room-bedroom-decor-interior-design-textile-design-bed-suite-duvet-cover-bed-sheet-bed-frame-828940.jpg
 
-External links
+###External links
+
+Casa Natal & Museo Bolivar https://en.wikipedia.org/wiki/Birthplace_of_Sim%C3%B3n_Bol%C3%ADvar
+Plaza Bolívar de Caracas https://en.wikipedia.org/wiki/Bolivar_Plaza_(Caracas)
+Paseo Los Próceres https://es.wikipedia.org/wiki/Paseo_Los_Pr%C3%B3ceres
+Caracas Botanical Garden https://en.wikipedia.org/wiki/Caracas_Botanical_Garden
+Museo de Arte Contemporáneo https://es.wikipedia.org/wiki/Museo_de_Arte_Contempor%C3%A1neo_de_Caracas
+National Art Gallery https://en.wikipedia.org/wiki/National_Art_Gallery_(Caracas)
+Los Caobos Park https://en.wikipedia.org/wiki/Los_Caobos_Park
+Plaza Francia https://en.wikipedia.org/wiki/Plaza_Francia_(Caracas)
+El Ávila National Park https://en.wikipedia.org/wiki/El_%C3%81vila_National_Park
+National Pantheon of Venezuela https://en.wikipedia.org/wiki/National_Pantheon_of_Venezuela
+Parque del este https://en.wikipedia.org/wiki/Parque_del_Este
+Caracas Cathedral https://en.wikipedia.org/wiki/Caracas_Cathedral
+El Hatillo Town https://en.wikipedia.org/wiki/El_Hatillo_Municipality
+
 Pabellon https://en.wikipedia.org/wiki/Pabell%C3%B3n_criollo
 arepas https://en.wikipedia.org/wiki/Arepa
 cachapas https://en.wikipedia.org/wiki/Cachapa
 
-Acknowledgements
+##Acknowledgements
 The brief for this project was given by Code Institute. I received inspiration 
 for this project from CARACAS, the city I was born and capital of my country of 
 origen, I grew up in this beautiful city and know most of its secrets. Because
