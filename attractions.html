@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -17,6 +18,9 @@
 
 	<!-- ----------------------------------------------------------------------Scripts-->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+	<!-- ----------------------------------------------------------------------faicon icon-->
+	<link rel="shortcut icon" href="assets/icon/lizzy.ico" />
 
 </head>
 
@@ -77,7 +81,7 @@
 				<div class="row">
 					<div class="col-12">
 						<p class="text-justify">The vibrant capital of Venezuela is famous for its vast cultural offer, well-tended green areas, monumental historical sites and emblematic modern architectures. Caracas has a particular charm, imagine walking through its streets on a Sunday and
-							feel its cool climate looking at the impressive hill Avila. Caracas is undoubtedly a beautiful city full of contrasts that you have see. Here we have a list of places elaborated by us that you cannot miss:</p>
+							feel its cool climate looking at the impressive hill Avila. Besides, it is a good place to do your shopping, you can find very good deals. Caracas is undoubtedly a beautiful city full of contrasts that you have see. Here we have a list of places elaborated by us that you cannot miss:</p>
 					</div>
 				</div>
 				<div class="row">
@@ -146,8 +150,9 @@
 				<div class="row">
 					<div class="col-12">
 						<p class="text-justify">You have to try the <strong><a href="https://en.wikipedia.org/wiki/Pabell%C3%B3n_criollo" target="_blank"></a></strong>Pabellón criollo. It is a traditional Venezuelan dish, the local version of the rice and beans combination found throughout the
-							Caribbean. It is a plate of rice, shredded beef in stew and stewed black beans. In this city you can find also the"areperas". The <strong><a href="https://en.wikipedia.org/wiki/Arepa" target="_blank">arepa</a></strong> is like the bread for Venezuelans, in the areperas you can enjoy different fillings for the arepas, one more tasty
-							than the other. There is also the <strong><a href="https://en.wikipedia.org/wiki/Cachapa" target="_blank"> cachapa </a> </strong>which is made with corn and filled with white or yellow cheeses and somepeople put inside ham and pork, a true delight. Here we share with you a list of typical dishes, desserts and drinks that you may find only in this region:</p>
+							Caribbean. It is a plate of rice, shredded beef in stew and stewed black beans. In this city you can find also the"areperas". The <strong><a href="https://en.wikipedia.org/wiki/Arepa" target="_blank">arepa</a></strong> is like the bread for Venezuelans,
+							in the areperas you can enjoy different fillings for the arepas, one more tasty than the other. There is also the <strong><a href="https://en.wikipedia.org/wiki/Cachapa" target="_blank"> cachapa </a> </strong>which is made with corn and filled
+							with white or yellow cheeses and somepeople put inside ham and pork, a true delight. Here we share with you a list of typical dishes, desserts and drinks that you may find only in this region:</p>
 					</div>
 				</div>
 				<div class="row">
@@ -238,47 +243,67 @@
 		</div>
 		<div class="row">
 			<div class="col-12">
-				<p class="text-center">Tell us what type of place you would like to check, and our search box will help you with the name of the place. You can also look for a particular place..!</p>
+				<p class="text-center">As you may know, Caracas has  plenty of options to enjoy your holidays. Select what you are looking for and our interactive map will show you where to find it</p>
 			</div>
 		</div>
 		<div class="row justify-content-center search-container">
-			<div class="col-11 col-lg-3">
+			<div class="col-sm-auto">
 
-
-				<select id="place-type" class="selectpicker" data-live-search="true" multiple data-max-options="1" data-size="5">
+				<select id="place-type" class="selectpicker" data-live-search="true" multiple data-max-options="1" data-size="6">
+					
 					  <optgroup label="Attractions">
-					  	 <option value="museum">Museum</option>
+					  	<option value="amusement_park">Amusement Park</option>
+					  	<option value="art_gallery">Art Gallery</option>
+					  	<option value="bowling_alley">Bowling</option>
+					  	<option value="casino">Casino</option>
+					  	<option value="church">Church</option>
+					  	<option value="library">Library</option>
+					  	<option value="mosque">Mosque</option>
+					  	<option value="movie_theater">Movie Theater</option>
+					  	<option value="museum">Museum</option>
 					    <option value="park">Natural Area</option>
-					   
+					    <option value="spa">Spa</option>
+					    <option value="stadium">Stadium</option>
+					    <option value="synagogue">Synagogue</option>
+					    <option value="zoo">Zoo</option>
 					  </optgroup>
+					  
 					  <optgroup label="Bar & Restaurants">
-					    <option value="restaurant">Restaurants</option>
 					    <option value="bar">Bar</option>
 					    <option value="cafe">Cafe</option>
+					    <option value="night_club">Night Club</option>
+					    <option value="restaurant">Restaurants</option>
 					  </optgroup>
+					  
 					   <optgroup label="Shopping">
+					   	<option value="book_store">Book Store</option>
+					   	<option value="clothing_store">Clothing Store</option>
+					   	<option value="convenience_store">Convenience Store</option>
+					    <option value="department_store">Department Store</option>
+					    <option value="electronics_store">Electronics Store</option>
+					    <option value="florist">Florist</option>
+					    <option value="jewelry_store">Jewelry Store</option>
+					    <option value="liquor_store">Liquor Store</option>
+					    <option value="pet_store">Pet Store</option>
+					    <option value="shoe_store">Shoe Store</option>
 					    <option value="shoppingmall">Shopping Mall</option>
 					    <option value="store">Stores</option>
 					  </optgroup>
+					  
 					  <optgroup label="Accommodation" >
 					    <option value="lodging">Hotels</option>
-					    
+					    <option value="campground">Campground</option>
 					  </optgroup>
+					    
+					  <optgroup label="Others" >
+					    <option value="bakery">Bakery</option>
+					    <option value="car_rental">Car Rental</option>
+					    <option value="travel_agency">Travel Agency</option>
+					    <option value="supermarket">Supermarket</option>
+					  </optgroup>
+					  
 					</select>
 
-
-
-			</div>
-			<div class="col-1 col-lg-2">
-				<p class="text-center arrow"><i class="fas fa-arrow-right"></i></p>
-			</div>
-			<div class="col-12 col-lg-3">
-				<form class="form-inline my-2 my-lg-0">
-
-					<input id="pac-input" class="form-control mr-sm-2" type="text" placeholder="Place Name" onchange="initAutocomplete()">
-
-					<!--	<button onclick="placeName()"class="btn my-2 my-sm-0" type="submit">Search</button> -->
-				</form>
 			</div>
 		</div>
 		<div class="row map-container">
@@ -324,8 +349,6 @@
 		</div>
 	</footer>
 
-
-
 	<!-------------------------------------------------------------------------------My scripts-->
 	<script src="assets/js/mapccsl.js"></script>
 
@@ -338,7 +361,8 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.2/js/bootstrap-select.min.js"></script>
 
 	<!------------------------------------------------------------------------------- scripts from Google Map API-->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_huMnglI9aQ9AUlk7BcwiH2oSVckYmb0&libraries=places&callback=initAutocomplete" async defer></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_huMnglI9aQ9AUlk7BcwiH2oSVckYmb0&libraries=places&callback=initMap"></script>
+
 </body>
 
 </html>

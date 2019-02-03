@@ -1,35 +1,13 @@
-function initAutocomplete(typeOfPlace) {
+function initAutocomplete() {
   var map = new google.maps.Map(document.getElementById('map'), {
     center: { lat: 10.4806, lng: -66.9036 },
     zoom: 13,
     mapTypeId: 'roadmap'
   });
 
-  $('#place-type').change(function() {
-
-    var place = $('option').val()
-    var typeOfPlace = $(this).val(); // Here is saved the actual type of attraction
-
-    console.log(typeOfPlace); //works!!
-
-
-    $('#pac-input').val(typeOfPlace[0]);
-    $('#pac-input').click();
-
-
-  });
-
-
-
-  //aqui esta el init map
-
-  // Create the search box and link it to the UI element.
-
-
+  //Introduce the content of the search box
   var input = document.getElementById('pac-input');
   var searchBox = new google.maps.places.SearchBox(input);
-
-
 
   // Bias the SearchBox results towards current map's viewport.
   map.addListener('bounds_changed', function() {
@@ -68,15 +46,10 @@ function initAutocomplete(typeOfPlace) {
         scaledSize: new google.maps.Size(25, 25)
       };
 
-
- 
-
       var request = {
         placeId: place.place_id,
         fields: ['name', 'photos', 'url', 'geometry']
       };
-      
-
 
       service = new google.maps.places.PlacesService(map);
       service.getDetails(request, callback);
@@ -89,12 +62,13 @@ function initAutocomplete(typeOfPlace) {
             map: map,
             icon: icon,
             title: place.name,
-            image: place.photos, //ask for the right word
+            image: place.photos[0],
             position: place.geometry.location,
-            url: place.url //ask for the right word
+            url: place.url
+            
           }));
 
-          
+
         }
       }
 
@@ -114,3 +88,12 @@ function initAutocomplete(typeOfPlace) {
   });
 
 }
+
+$('#place-type').change(function() {
+
+  var place = $('option').val();
+  var typeOfPlace = $(this).val(); // Here is saved the actual type of attraction
+
+  $('#pac-input').val(typeOfPlace[0]); //Pass the type of place to the search bol
+
+});
