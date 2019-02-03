@@ -240,7 +240,7 @@ You can check this project in the next URL https://rasquin.github.io/project-2-C
 
 
 ## Credits
-###Content
+### Content
 Text of Caracas Get to know our city was got from https://en.wikipedia.org/wiki/Caracas
 
 ### Media
